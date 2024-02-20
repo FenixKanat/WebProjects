@@ -6,7 +6,7 @@
         "price": 0,
         "category": "Responsive design with Bootstrap",
         "description": "",
-        "imageUrl": "./img/CSSbook1.jpg"
+        "imageUrl": ""
 
     },
     {
@@ -16,7 +16,7 @@
         "price": 0,
         "category": "UX",
         "description": "",
-        "imageUrl": "./img/CSSbook2.jpg"
+        "imageUrl": ""
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@
         "price": 0,
         "category": "UX",
         "description": "",
-        "imageUrl": "./img/CSSbook3.jpg"
+        "imageUrl": ""
 
     },
     {
@@ -35,7 +35,7 @@
         "price": 0,
         "category": "UX",
         "description": "",
-        "imageUrl": "./img/CSSbook4.jpg"
+        "imageUrl": ""
     },
     {
         "id": 5,
@@ -44,7 +44,7 @@
         "price": 0,
         "category": "UX",
         "description": "",
-        "imageUrl": "./img/CSSbook5.jpg"
+        "imageUrl": ""
 
     },
     {
@@ -99,7 +99,7 @@
         "price": 0,
         "category": "CSS - an introduction",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/CSSbook1.jpg"
     }, {
         "id": 12,
         "title": "",
@@ -107,7 +107,7 @@
         "price": 0,
         "category": "CSS",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/CSSbook2.jpg"
     }, {
         "id": 13,
         "title": "",
@@ -115,7 +115,7 @@
         "price": 0,
         "category": "CSS",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/CSSbook3.jpg"
     }, {
         "id": 14,
         "title": "",
@@ -123,7 +123,7 @@
         "price": 0,
         "category": "CSS",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/CSSbook4.jpg"
     }, {
         "id": 15,
         "title": "",
@@ -131,7 +131,7 @@
         "price": 0,
         "category": "CSS",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/CSSbook5.jpg"
     }, {
         "id": 16,
         "title": "",
