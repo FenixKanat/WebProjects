@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container" id="app">
+    <div class="container">
         <div class="filters">
             <select id="filter-category">
                 <option value="">Filter by Category</option>
@@ -19,6 +19,7 @@
             </select>
             <select id="filter-author">
                 <option value="">Filter by Author</option>
+               
             </select>
             <input type="number" id="filter-price-min" placeholder="Min price">
             <input type="number" id="filter-price-max" placeholder="Max price">
@@ -31,6 +32,9 @@
             <button onclick="sortBooks('price', 'desc')">Price Descending</button>
             <button onclick="sortBooks('author', 'asc')">Author Ascending</button>
             <button onclick="sortBooks('author', 'desc')">Author Descending</button>
+        </div>
+        <div id="books-container">
+
         </div>
     </div>
 
