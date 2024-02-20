@@ -54,7 +54,8 @@
         "price": 0,
         "category": "HTML - an introduction",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/HTMLbook1.jpg"
+
     },
     {
         "id": 7,
