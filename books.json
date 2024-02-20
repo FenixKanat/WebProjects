@@ -49,18 +49,18 @@
     },
     {
         "id": 6,
-        "title": "",
-        "author": "",
+        "title": "HTML - an introduction",
+        "author": "Micah Goldbolt",
         "price": 0,
-        "category": "HTML - an introduction",
+        "category": "HTML",
         "description": "",
         "imageUrl": "./img/HTMLbook1.jpg"
 
     },
     {
         "id": 7,
-        "title": "",
-        "author": "",
+        "title": "HTML5",
+        "author": "Jennifer Niederst Robbins",
         "price": 0,
         "category": "HTML",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -68,8 +68,8 @@
     },
     {
         "id": 8,
-        "title": "",
-        "author": "",
+        "title": "Head first HTMl & CSS",
+        "author": "Elisabeth Robson, Eric Freeman",
         "price": 0,
         "category": "HTML",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -77,8 +77,8 @@
     }, 
     {
         "id": 9,
-        "title": "",
-        "author": "",
+        "title": "HTML in easy steps",
+        "author": "Mike McGrath",
         "price": 0,
         "category": "HTML",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -86,88 +86,88 @@
     },
     {
         "id": 10,
-        "title": "",
-        "author": "",
+        "title": "HTML & CSS - design and build websites",
+        "author": "Jon Duckett",
         "price": 0,
         "category": "HTML",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "imageUrl": "./img/HTMLbook5.jpg"
     }, {
         "id": 11,
-        "title": "",
-        "author": "",
+        "title": "CSS - an introduction",
+        "author": "Eric A.Meyer",
         "price": 0,
-        "category": "CSS - an introduction",
+        "category": "CSS",
         "description": "",
         "imageUrl": "./img/CSSbook1.jpg"
     }, {
         "id": 12,
-        "title": "",
-        "author": "",
+        "title": "CSS The definitive guide",
+        "author": "Eric A.Meyer & Estelle Weyl",
         "price": 0,
         "category": "CSS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "imageUrl": "./img/CSSbook2.jpg"
     }, {
         "id": 13,
-        "title": "",
-        "author": "",
+        "title": "Learn CSS in one day and learn it well",
+        "author": "Jamie Chan",
         "price": 0,
         "category": "CSS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "imageUrl": "./img/CSSbook3.jpg"
     }, {
         "id": 14,
-        "title": "",
-        "author": "",
+        "title": "tiny CSS projects",
+        "author": "Martine Dowden & Micheal Gearon",
         "price": 0,
         "category": "CSS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "imageUrl": "./img/CSSbook4.jpg"
     }, {
         "id": 15,
-        "title": "",
-        "author": "",
+        "title": "CSS the missing manual",
+        "author": "David Sawyer McFarland",
         "price": 0,
         "category": "CSS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "imageUrl": "./img/CSSbook5.jpg"
     }, {
         "id": 16,
-        "title": "",
-        "author": "",
+        "title": "JavaScript - an introduction",
+        "author": "David Flanagan",
         "price": 0,
-        "category": "JavaScript - an introduction",
+        "category": "JavaScript",
         "description": "",
         "imageUrl": "./img/JSbook1.jpg"
     }, {
         "id": 17,
-        "title": "",
-        "author": "",
+        "title": "Eloquent JavaScript",
+        "author": "Marijin Haverbeke",
         "price": 0,
         "category": "JavaScript",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "imageUrl": "./img/JSbook2.jpg"    
     }, {
         "id": 18,
-        "title": "",
-        "author": "",
+        "title": "JavaScript- all in one for dummies",
+        "author": "Chris Minnick",
         "price": 0,
         "category": "JavaScript",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "imageUrl": "./img/JSbook3.jpg"
     }, {
         "id": 19,
-        "title": "",
-        "author": "",
+        "title": "JavaScript from beginner to professional",
+        "author": "Laurence Lars Svekis, Rob Percival & Maaike van Putten",
         "price": 0,
         "category": "JavaScript",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "imageUrl": "./img/JSbook4.jpg"
     }, {
         "id": 20,
-        "title": "",
-        "author": "",
+        "title": "JavaScript: The good parts",
+        "author": "Douglas Crockford",
         "price": 0,
         "category": "JavaScript",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
