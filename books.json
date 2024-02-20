@@ -4,7 +4,7 @@
         "title": "",
         "author": "",
         "price": 0,
-        "category": "",
+        "category": "UX",
         "description": "",
         "imageUrl": ""
 
@@ -14,7 +14,86 @@
         "title": "",
         "author": "",
         "price": 0,
-        "category": "",
+        "category": "UX",
         "description": "",
         "imageUrl": ""
-    }]
+    },
+    {
+        "id": 3,
+        "title": "",
+        "author": "",
+        "price": 0,
+        "category": "UX",
+        "description": "",
+        "imageUrl": ""
+
+    },
+    {
+        "id": 4,
+        "title": "",
+        "author": "",
+        "price": 0,
+        "category": "UX",
+        "description": "",
+        "imageUrl": ""
+    },
+    {
+        "id": 5,
+        "title": "",
+        "author": "",
+        "price": 0,
+        "category": "UX",
+        "description": "",
+        "imageUrl": ""
+
+    },
+    {
+        "id": 6,
+        "title": "",
+        "author": "",
+        "price": 0,
+        "category": "HTML",
+        "description": "",
+        "imageUrl": ""
+    },
+    {
+        "id": 7,
+        "title": "",
+        "author": "",
+        "price": 0,
+        "category": "HTML",
+        "description": "",
+        "imageUrl": ""
+    },
+    {
+        "id": 8,
+        "title": "",
+        "author": "",
+        "price": 0,
+        "category": "HTML",
+        "description": "",
+        "imageUrl": ""
+    }, 
+    {
+        "id": 9,
+        "title": "",
+        "author": "",
+        "price": 0,
+        "category": "HTML",
+        "description": "",
+        "imageUrl": ""
+    },
+    {
+        "id": 10,
+        "title": "",
+        "author": "",
+        "price": 0,
+        "category": "HTML",
+        "description": "",
+        "imageUrl": ""
+    }
+
+
+
+
+]
