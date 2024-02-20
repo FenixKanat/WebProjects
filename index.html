@@ -9,7 +9,29 @@
 </head>
 <body>
     <div class="container" id="app">
-        <!-- Books-->
+        <div class="filters">
+            <select id="filter-category">
+                <option value="">Filter by Category</option>
+                <option value="UX">UX</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+            <select id="filter-author">
+                <option value="">Filter by Author</option>
+            </select>
+            <input type="number" id="filter-price-min" placeholder="Min price">
+            <input type="number" id="filter-price-max" placeholder="Max price">
+            <button onclick="applyFilters()">Apply Filters</button>
+        </div>
+        <div class="sort">
+            <button onclick="sortBooks('title', 'asc')">Title Ascending</button>
+            <button onclick="sortBooks('title', 'desc')">Title Descending</button>
+            <button onclick="sortBooks('price', 'asc')">Price Ascending</button>
+            <button onclick="sortBooks('price', 'desc')">Price Descending</button>
+            <button onclick="sortBooks('author', 'asc')">Author Ascending</button>
+            <button onclick="sortBooks('author', 'desc')">Author Descending</button>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
