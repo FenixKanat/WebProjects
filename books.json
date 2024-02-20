@@ -4,7 +4,7 @@
         "title": "",
         "author": "",
         "price": 0,
-        "category": "UX",
+        "category": "Responsive design with Bootstrap",
         "description": "",
         "imageUrl": ""
 
@@ -52,7 +52,7 @@
         "title": "",
         "author": "",
         "price": 0,
-        "category": "HTML",
+        "category": "HTML - an introduction",
         "description": "",
         "imageUrl": ""
     },
@@ -96,7 +96,7 @@
         "title": "",
         "author": "",
         "price": 0,
-        "category": "CSS",
+        "category": "CSS - an introduction",
         "description": "",
         "imageUrl": ""
     }, {
@@ -136,7 +136,7 @@
         "title": "",
         "author": "",
         "price": 0,
-        "category": "JavaScript",
+        "category": "JavaScript - an introduction",
         "description": "",
         "imageUrl": ""
     }, {
