@@ -64,7 +64,7 @@
         "price": 0,
         "category": "HTML",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/HTMLbook2.jpg"
     },
     {
         "id": 8,
@@ -73,7 +73,7 @@
         "price": 0,
         "category": "HTML",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/HTMLbook3.jpg"
     }, 
     {
         "id": 9,
@@ -82,7 +82,7 @@
         "price": 0,
         "category": "HTML",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/HTMLbook4.jpg"
     },
     {
         "id": 10,
@@ -91,7 +91,7 @@
         "price": 0,
         "category": "HTML",
         "description": "",
-        "imageUrl": ""
+        "imageUrl": "./img/HTMLbook5.jpg"
     }, {
         "id": 11,
         "title": "",
