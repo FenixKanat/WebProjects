@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                       <img class="card-img-top" src="${book.imageUrl}" alt="${book.title}">
                                       <div class="card-body">
                                         <h5 class="card-title">${book.title}</h5>
+                                        <p class="card-author">Author: ${book.author}</p> 
                                         <p class="card-text">${book.description}</p>
                                         <button class="btn btn-primary add-to-cart" data-id="${book.id}">Add to Cart</button>
                                       </div>

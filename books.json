@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "title": "",
-        "author": "",
+        "title": "Responsive design with Bootstrap",
+        "author": "Silvio Moreto, Matt Lambert, Benjamin Jakobus, Jason Marah",
         "price": 0,
-        "category": "Responsive design with Bootstrap",
+        "category": "UX",
         "description": "",
         "imageUrl": "./img/UXbook1.jpg"
 
     },
     {
         "id": 2,
-        "title": "",
-        "author": "",
+        "title": "Universal Principles of UX",
+        "author": "Irene Pereyra",
         "price": 0,
         "category": "UX",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -20,8 +20,8 @@
     },
     {
         "id": 3,
-        "title": "",
-        "author": "",
+        "title": "Laws of UX",
+        "author": "Jon Yablonski",
         "price": 0,
         "category": "UX",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -30,8 +30,8 @@
     },
     {
         "id": 4,
-        "title": "",
-        "author": "",
+        "title": "Design Thinking",
+        "author": "Uijun Park",
         "price": 0,
         "category": "UX",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -39,8 +39,8 @@
     },
     {
         "id": 5,
-        "title": "",
-        "author": "",
+        "title": "UX Strategy",
+        "author": "Jaime Levy",
         "price": 0,
         "category": "UX",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
