@@ -84,6 +84,10 @@ function displayBooks(books) {
             </div>
         `;
 
+        bookCard.querySelector('.add-to-cart').addEventListener('click', () => {
+            addBookToCart(book);
+        });
+
         const img = bookCard.querySelector('.card-img-top');
         img.addEventListener('click', function() {
             toggleBookDetails(book, bookCard.querySelector('.book-details'));
