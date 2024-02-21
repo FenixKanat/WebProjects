@@ -9,6 +9,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 });
 
+function populateAuthorFilter(books){
+    const authors = new Set();
+    books.forEach(book => {
+        authors.add(book.author);
+    });
+
+    const filterAuthor = document.getElementById('filter-author');
+    authors.forEach(author => {
+    const option = new Option(author, author);
+    filterAuthor.add(option);
+});
+}
+
+
+
 function displayBooks(books) {
     const booksContainer = document.getElementById('books-container');
     booksContainer.innerHTML = ''; 
