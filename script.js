@@ -23,8 +23,6 @@ function populateAuthorFilter(books){
 });
 }
 
-
-
 function displayBooks(books) {
     const booksContainer = document.getElementById('books-container');
     booksContainer.innerHTML = ''; 
@@ -70,7 +68,6 @@ function toggleBookDetails(book, detailElement) {
     }
 }
 
-
 function displayBookDetails(book) {
     const modalTitle = document.getElementById('bookDetailModalLabel');
     const modalBody = document.querySelector('#bookDetailModal .modal-body');
@@ -86,7 +83,6 @@ function displayBookDetails(book) {
     var bookDetailModal = new bootstrap.Modal(document.getElementById('bookDetailModal'), {});
     bookDetailModal.show();
 }
-
 
 function applyFilters() {
     const category = document.getElementById('filter-category').value;
