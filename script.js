@@ -97,7 +97,7 @@ function displayBooks(books) {
     });
 }
 
-function toggleBookDetails(book, detailElement, textElement) {
+function toggleBookDetails(book, detailElement) {
     if (detailElement.style.display === 'none') {
         detailElement.innerHTML = `
             <p><strong>Title:</strong> ${book.title}</p>
@@ -105,16 +105,19 @@ function toggleBookDetails(book, detailElement, textElement) {
             <p><strong>Price:</strong> $${book.price}</p>
             <p><strong>Description:</strong> ${book.description}</p>
             <img src="${book.imageUrl}" class="img-fluid" alt="${book.title}">
-            <button class="btn btn-primary add-to-cart" data-id="${book.id}">Add to Cart</button>
+            <button class="btn btn-primary add-to-cart-detail" data-id="${book.id}">Add to Cart</button>
         `;
         detailElement.style.display = 'block';
-        textElement.innerHTML = book.description;
+
+        detailElement.querySelector('.add-to-cart-detail').addEventListener('click', () => {
+            addBookToCart(book);
+        });
     } else {
         detailElement.style.display = 'none';
         detailElement.innerHTML = '';
-        textElement.innerHTML = truncateText(book.description, 100); 
     }
 }
+
 
 function displayBookDetails(book) {
     const modalTitle = document.getElementById('bookDetailModalLabel');
