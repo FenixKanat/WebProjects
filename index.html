@@ -8,6 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="shopping-cart">
+        <button class="btn btn-info toggle-cart">Toggle Cart</button>
+        <div class="cart-contents" style="display:none;">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                </tbody>
+            </table>
+            <div class="cart-total">
+                Total: $<span id="cart-total">0</span>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="filters">
             <select id="filter-category">
@@ -33,26 +53,6 @@
             <button onclick="sortBooks('author', 'desc')">Author Descending</button>
         </div>
         <div id="books-container">
-        </div>
-        <div class="shopping-cart">
-            <button class="btn btn-info toggle-cart">Toggle Cart</button>
-            <div class="cart-contents" style="display:none;">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Title</th>
-                            <th>Quantity</th>
-                            <th>Price</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody id="cart-items">
-                    </tbody>
-                </table>
-                <div class="cart-total">
-                    Total: $<span id="cart-total">0</span>
-                </div>
-            </div>
         </div>
     </div>
     

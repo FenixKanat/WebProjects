@@ -100,6 +100,7 @@ function displayBooks(books) {
 function toggleBookDetails(book, detailElement, textElement) {
     if (detailElement.style.display === 'none') {
         detailElement.innerHTML = `
+            <p><strong>Title:</strong> ${book.title}</p>
             <p><strong>Author:</strong> ${book.author}</p>
             <p><strong>Price:</strong> $${book.price}</p>
             <p><strong>Description:</strong> ${book.description}</p>
