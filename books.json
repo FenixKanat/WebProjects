@@ -5,7 +5,7 @@
         "author": "Silvio Moreto, Matt Lambert, Benjamin Jakobus, Jason Marah",
         "price": 20,
         "category": "UX",
-        "description": "",
+        "description": "Responsive design makes sure that a website looks good and functions well on any device, whether it's a desktop, a laptop, a tablet, or a smartphone. Bootstrap is a popular tool for developing responsive and mobile-first websites. It offers a collection of HTML, CSS, and JavaScript tools for creating layouts, forms, buttons, navigation, and other interface components. With Bootstrap, developers can quickly build a responsive website that automatically adjusts its layout and content to fit the screen size of the device being used. This makes the user experience better, making websites easier to use on various devices.",
         "imageUrl": "./img/UXbook1.jpg"
 
     },
@@ -53,7 +53,7 @@
         "author": "Micah Goldbolt",
         "price": 29,
         "category": "HTML",
-        "description": "",
+        "description": "HTML, which stands for HyperText Markup Language, is language used to create web pages. It forms the backbone of any website by offering the basic structure. HTML uses tags to define elements such as headings, paragraphs, links, images, and other content, allowing browsers to display and organize the content properly. Learning HTML is the first step in web development, as it helps understand the web's structure and how to create content that can be displayed on the internet. Even though HTML is not a programming language, it is important to learn for web design and development.",
         "imageUrl": "./img/HTMLbook1.jpg"
 
     },
@@ -98,7 +98,7 @@
         "author": "Eric A.Meyer",
         "price": 17,
         "category": "CSS",
-        "description": "",
+        "description": "CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS improves the looks or designs of web pages by allowing developers to apply styles (such as fonts, colors, spacing, and layout) to HTML elements. This separation of content (HTML) from presentation (CSS) makes it easier to update websites. With CSS, you can create a consistent look on multiple pages of a website and adapt the presentation to different types of devices, such as large screens, small screens, or printers.",
         "imageUrl": "./img/CSSbook1.jpg"
     }, {
         "id": 12,
@@ -138,7 +138,7 @@
         "author": "David Flanagan",
         "price": 11,
         "category": "JavaScript",
-        "description": "",
+        "description": "JavaScript is a programming language that makes it possible to create interactive web pages. It is an important part of web development, with HTML and CSS. While HTML provides the structure and CSS adds styling, JavaScript adds interactivity to websites. For example, JavaScript can be used to create games, responsive forms, pop-up messages, and to dynamically update content without having to reload the page. JavaScript opens up many possibilities in web development.",
         "imageUrl": "./img/JSbook1.jpg"
     }, {
         "id": 17,
