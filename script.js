@@ -1,4 +1,5 @@
-let booksGlobal = []; 
+let booksGlobal = [];
+let cart = [];
 
 document.addEventListener('DOMContentLoaded', function() {
     fetch('books.json')
@@ -8,6 +9,40 @@ document.addEventListener('DOMContentLoaded', function() {
             displayBooks(books);
             populateAuthorFilter(books);
         });
+});
+
+function addBookToCart(book){
+    const existingItem = cart.find(item => item.id === book.id);
+    if(existingItem){
+        existingItem.quantity++;
+    }else {
+        cart.push({...book, quantity: 1});
+    }
+    updateCartDisplay();
+}
+
+function updateCartDisplay(){
+    const cartItemsContainer = document.getElementById('cart-items');
+    cartItemsContainer.innerHTML = '';
+    let total = 0;
+    cart.forEach(item => {
+        const rowTotal = item.price * item.quantity;
+        total += rowTotal;
+        cartItemsContainer.innerHTML += `
+        <tr>
+            <td>${item.title}</td>
+            <td>${item.quantity}</td>
+            <td>$${item.price}</td>
+            <td>$${rowTotal.toFixed(2)}</td>
+        </tr>
+    `;
+    });
+    document.getElementById('cart-total').textContent = total.toFixed(2);
+}
+
+document.querySelector('.toggle-cart').addEventListener('click', () => {
+    const cartContents = document.querySelector('.cart-contents');
+    cartContents.style.display = cartContents.style.display === 'none' ? 'block' : 'none';
 });
 
 function populateAuthorFilter(books){
