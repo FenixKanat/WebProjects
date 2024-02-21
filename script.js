@@ -65,6 +65,7 @@ function toggleBookDetails(book, detailElement, textElement) {
             <p><strong>Price:</strong> $${book.price}</p>
             <p><strong>Description:</strong> ${book.description}</p>
             <img src="${book.imageUrl}" class="img-fluid" alt="${book.title}">
+            <button class="btn btn-primary add-to-cart" data-id="${book.id}">Add to Cart</button>
         `;
         detailElement.style.display = 'block';
         textElement.innerHTML = book.description;
