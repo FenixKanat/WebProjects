@@ -7,6 +7,13 @@
     object-fit: cover; 
 }
 
+#books-container .book-card {
+    margin-bottom: 100px; /* Adds space below each book card */
+    width: 100%; /* Adjust if necessary, or remove if not needed */
+    /* Keep other styles as they are */
+}
+
+
 
 .cart-item {
     border-bottom: 1px solid #ca1717;
