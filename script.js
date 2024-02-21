@@ -23,6 +23,10 @@ function populateAuthorFilter(books){
 });
 }
 
+function truncateText(text, length){
+    return (text.length > length) ? text.substr(0,length - 1) + '...' : text;
+}
+
 function displayBooks(books) {
     const booksContainer = document.getElementById('books-container');
     booksContainer.innerHTML = ''; 
