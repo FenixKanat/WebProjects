@@ -35,13 +35,14 @@ function displayBooks(books) {
         const bookCard = document.createElement('div');
         bookCard.className = 'card book-card';
         bookCard.style.width = '18rem';
+        const shortDescription = truncateText(book.description, 100);
         bookCard.innerHTML = `
             <img class="card-img-top" src="${book.imageUrl}" alt="${book.title}" style="cursor:pointer;">
             <div class="card-body">
                 <h5 class="card-title">${book.title}</h5>
                 <p class="card-author">Author: ${book.author}</p>
                 <p class="card-price">Price: $${book.price}</p>
-                <p class="card-text">${book.description}</p>
+                <p class="card-text">${shortDescription}</p>
                 <button class="btn btn-primary add-to-cart" data-id="${book.id}">Add to Cart</button>
             </div>
             <div class="book-details" style="display:none">
@@ -57,7 +58,7 @@ function displayBooks(books) {
     });
 }
 
-function toggleBookDetails(book, detailElement) {
+function toggleBookDetails(book, detailElement, textElement) {
     if (detailElement.style.display === 'none') {
         detailElement.innerHTML = `
             <p><strong>Author:</strong> ${book.author}</p>
@@ -66,9 +67,11 @@ function toggleBookDetails(book, detailElement) {
             <img src="${book.imageUrl}" class="img-fluid" alt="${book.title}">
         `;
         detailElement.style.display = 'block';
+        textElement.innerHTML = book.description;
     } else {
         detailElement.style.display = 'none';
-        detailElement.innerHTML = ''; 
+        detailElement.innerHTML = '';
+        textElement.innerHTML = truncateText(book.description, 100); 
     }
 }
 
