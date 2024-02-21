@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(books => {
             booksGlobal = books; 
             displayBooks(books);
+            populateAuthorFilter(books);
         });
 });
 
