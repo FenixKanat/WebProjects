@@ -29,18 +29,42 @@ function displayBooks(books) {
     const booksContainer = document.getElementById('books-container');
     booksContainer.innerHTML = ''; 
     books.forEach(book => {
-        const bookCard = `<div class="card book-card" style="width: 18rem;">
-                              <img class="card-img-top" src="${book.imageUrl}" alt="${book.title}">
-                              <div class="card-body">
-                                <h5 class="card-title">${book.title}</h5>
-                                <p class="card-author">Author: ${book.author}</p>
-                                <p class="card-price">Price: $${book.price}</p>
-                                <p class="card-text">${book.description}</p>
-                                <button class="btn btn-primary add-to-cart" data-id="${book.id}">Add to Cart</button>
-                              </div>
-                          </div>`;
-        booksContainer.innerHTML += bookCard;
+        const bookCard = document.createElement('div');
+        bookCard.className = 'card book-card';
+        bookCard.style.width = '18rem';
+        bookCard.innerHTML = `
+            <img class="card-img-top" src="${book.imageUrl}" alt="${book.title}" style="cursor:pointer;">
+            <div class="card-body">
+              <h5 class="card-title">${book.title}</h5>
+              <p class="card-author">Author: ${book.author}</p>
+              <p class="card-price">Price: $${book.price}</p>
+              <p class="card-text">${book.description}</p>
+              <button class="btn btn-primary add-to-cart" data-id="${book.id}">Add to Cart</button>
+            </div>
+        `;
+
+        bookCard.querySelector('.card-img-top').addEventListener('click', function() {
+            displayBookDetails(book);
+        });
+
+        booksContainer.appendChild(bookCard);
     });
+}
+
+function displayBookDetails(book) {
+    const modalTitle = document.getElementById('bookDetailModalLabel');
+    const modalBody = document.querySelector('#bookDetailModal .modal-body');
+
+    modalTitle.textContent = book.title; 
+    modalBody.innerHTML = `
+        <p><strong>Author:</strong> ${book.author}</p>
+        <p><strong>Price:</strong> $${book.price}</p>
+        <p><strong>Description:</strong> ${book.description}</p>
+        <img src="${book.imageUrl}" class="img-fluid" alt="${book.title}">
+    `; 
+
+    var bookDetailModal = new bootstrap.Modal(document.getElementById('bookDetailModal'), {});
+    bookDetailModal.show();
 }
 
 
